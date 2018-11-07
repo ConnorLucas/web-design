@@ -3,7 +3,7 @@ body {
     font-family: linotype-didot, serif;
     font-size: 100%;
     margin: 0 auto;
-    width: 900px; 
+    width: 900px;
     font-weight: 300;
     font-style: normal;
     padding-bottom: 30px;
@@ -211,7 +211,7 @@ p {
 }
 
 .about-a img {
-    margin-top: 10px; 
+    margin-top: 10px;
 }
 
 .work-body {
@@ -238,20 +238,30 @@ p {
     text-align: center;
 }
 
+
+.work {
+    width: 100%;
+    margin: 0 auto;
+}
+
+/*
 .gallery figure {
     color: black;
     float: left;
     height: 200px;
     margin: 20px;
-    /*    padding-bottom: 10px;*/
+        padding-bottom: 10px;
     text-align: center;
     width: 28%;
 }
+*/
 
 .fotorama {
-    padding-bottom: 50px;
-    width: 900px;
+/*    padding-bottom: 50px;*/
+/*    width: 900px;*/
 }
+
+
 
 footer {
     clear: both;
@@ -264,7 +274,7 @@ footer {
 
 .footer-p {
     text-align: center;
-    
+
 }
 
 main {
