@@ -68,7 +68,7 @@ fotorama-video {
 
 .about-figure {
     float: left;
-    width: 50%;
+    width:50%;
 }
 
 .about-img {
@@ -80,8 +80,16 @@ fotorama-video {
     float: right;
     padding-bottom: 58px;
     position: relative;
-    width: 50%;
+    width:50%;
+    
 }
+
+.contact-div {
+    padding: 10px;
+    text-align: center;
+    column-fill: auto;
+}
+
 
 .media-links {
     text-align: center;
@@ -97,6 +105,10 @@ article {
 .contact-p {
     padding: 10px;
     text-align: center;
+}
+
+.contact-info {
+    padding-top: 20px;
 }
 
 a:hover {
@@ -280,4 +292,23 @@ footer {
 main {
     padding-bottom: 20px;
 }
+/*
+@media screen and(max-width: 600px){
+    .about-section{
+        width:100%;
+    }
+    .about-figure{
+        width:100%;
+    }
+}
+*/
+
+@media only screen and (min-width: 20em) and (max-width: 29em) {
+    
+   h1 {
+    font-size: 500%;
+} 
+    
+}
+
 
