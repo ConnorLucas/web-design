@@ -1,0 +1,56 @@
+body {
+    font: 1.25em 'Lato', sans-serif;
+}
+
+.my-masthead {
+    background-color: white;
+    color: black;
+}
+
+.mybackground1 {
+    margin-top: 3rem;
+}
+
+
+
+.carousel-item img {
+    width: 40%;
+}
+
+
+.space-tb {
+    font: 2.5em linotype-didot, serif;
+    padding-bottom: 1rem;
+    padding-top: 6rem;
+
+}
+
+.space-tb-nav {
+    font: 2.5em linotype-didot, serif;
+}
+
+.space-tbb {
+    font: .75em 'Lato', sans-serif;
+    padding-bottom: 2rem;
+    padding-top: 6rem;
+
+}
+
+.nav-link {
+    color: black;
+    font-size: .75em;
+    padding-bottom: 3em;
+}
+
+.navbar {
+    float: none;
+    font-size: 1.5rem;
+    text-align: center;
+    vertical-align: top;
+
+}
+
+.myfooter {
+    font: .4em linotype-didot, serif;
+
+}

@@ -3,7 +3,7 @@ body {
     font-family: linotype-didot, serif;
     font-size: 100%;
     margin: 0 auto;
-    width: 900px;
+    max-width: 900px;
     font-weight: 300;
     font-style: normal;
     padding-bottom: 30px;
@@ -68,7 +68,7 @@ fotorama-video {
 
 .about-figure {
     float: left;
-    width:50%;
+    width: 50%;
 }
 
 .about-img {
@@ -80,8 +80,8 @@ fotorama-video {
     float: right;
     padding-bottom: 58px;
     position: relative;
-    width:50%;
-    
+    width: 50%;
+
 }
 
 .contact-div {
@@ -140,15 +140,21 @@ h3 {
 
 }
 
+/*
 .index-center {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 100%;
 }
+*/
 
 .index-img {
     width: 100%;
+}
+
+.index-img-mobile {
+    display: none;
 }
 
 iframe {
@@ -250,6 +256,14 @@ p {
     text-align: center;
 }
 
+.work-section {
+    display: block;
+    font-family: 'Lato', sans-serif;
+    font-size: 100%;
+    padding: 8px;
+    text-align: center;
+}
+
 
 .work {
     width: 100%;
@@ -269,8 +283,8 @@ p {
 */
 
 .fotorama {
-/*    padding-bottom: 50px;*/
-/*    width: 900px;*/
+    /*    padding-bottom: 50px;*/
+    /*    width: 900px;*/
 }
 
 
@@ -292,6 +306,7 @@ footer {
 main {
     padding-bottom: 20px;
 }
+
 /*
 @media screen and(max-width: 600px){
     .about-section{
@@ -304,11 +319,60 @@ main {
 */
 
 @media only screen and (min-width: 20em) and (max-width: 29em) {
+
+    h1 {
+        font-size: 2.5em;
+    }
+
+    .index-img-mobile {
+        display: block;
+        width: 100%;
+
+    }
+
+    .index-img {
+        display: none;
+    }
+
+
+    .about-figure {
+        float: none;
+        width: 100%;
+    }
+
+    .about-section {
+        float: none;
+        /*    padding-bottom: 58px;*/
+        width: 100%;
+
+    }
+
+    .about-p {
+        font-size: .9375em;
+        padding-left: 2em;
+        padding-right: 2em;
+        padding-top: 2em;
+        width: 100%;
+    }
     
-   h1 {
-    font-size: 500%;
-} 
-    
+    .work-text {
+    display: block;
+    font-family: 'Lato', sans-serif;
+    font-size: 100%;
+    padding: 8px;
+    text-align: center;
 }
+    
+    .work-section {
+    display: block;
+    font-family: 'Lato', sans-serif;
+    font-size: 100%;
+    padding-top: 3em;
+    text-align: center;
+}
+    
+    .media-links {
+    text-align: center;
+    width: 100%;
 
-
+}
